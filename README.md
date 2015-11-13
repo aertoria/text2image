@@ -1,10 +1,5 @@
 # text2image
-______  _____   ___  ______      ___  ___ _____
-| ___ \|  ___| / _ \ |  _  \     |  \/  ||  ___|
-| |_/ /| |__  / /_\ \| | | |     | .  . || |__  
-|    / |  __| |  _  || | | |     | |\/| ||  __|
-| |\ \ | |___ | | | || |/ /      | |  | || |___
-\_| \_/\____/ \_| |_/|___/       \_|  |_/\____/
+![alt tag](https://github.com/aertoria/text2image/blob/master/doc/example/1.jpg?raw=true)
 
 
 text2image is a python program that allow you to convert any text to a word-image like 'read me' above.
