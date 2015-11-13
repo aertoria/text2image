@@ -10,26 +10,14 @@ To use it is very simple:
 Example 1:
  python ./text2image.py "hello world"
 Output:
- _   _  _____  _      _      _____       _    _  _____ ______  _     ______
-| | | ||  ___|| |    | |    |  _  |     | |  | ||  _  || ___ \| |    |  _  \
-| |_| || |__  | |    | |    | | | |     | |  | || | | || |_/ /| |    | | | |
-|  _  ||  __| | |    | |    | | | |     | |/\| || | | ||    / | |    | | | |
-| | | || |___ | |____| |____\ \_/ /     \  /\  /\ \_/ /| |\ \ | |____| |/ /
-\_| |_/\____/ \_____/\_____/ \___/       \/  \/  \___/ \_| \_/\_____/|___/  
+![alt tag](https://github.com/aertoria/text2image/blob/master/doc/example/2.jpg?raw=true)
 
 
 
 Example 2:
  python ./text2image.py "SPARK V2.0_1"
 Output:
- _____ ______   ___  ______  _   __      _   _  _____       _____         __  
-/  ___|| ___ \ / _ \ | ___ \| | / /     | | | |/ __  \     |  _  |       /  |
-\ `--. | |_/ // /_\ \| |_/ /| |/ /      | | | |`' / /'     | |/' |       `| |
- `--. \|  __/ |  _  ||    / |    \      | | | |  / /       |  /| |        | |
-/\__/ /| |    | | | || |\ \ | |\  \     \ \_/ /./ /___  _  \ |_/ / _____ _| |_
-\____/ \_|    \_| |_/\_| \_/\_| \_/      \___/ \_____/ (_)  \___/ |_____|\___/
-
-
+![alt tag](https://github.com/aertoria/text2image/blob/master/doc/example/3.jpg?raw=true)
 It's an opensource program. You are free to use, re-distribtue etc. Welcome to jump in and contribute.
 
 
