@@ -1,6 +1,6 @@
 # text2image
 [![Build Status](https://travis-ci.org/aertoria/text2image.svg?branch=master)](https://travis-ci.org/aertoria/text2image)
-[![codecov.io](https://codecov.io/github/aertoria/text2image/coverage.svg?branch=master)](https://codecov.io/github/aertoria/text2image?branch=master)
+
 
 ![alt tag](https://github.com/aertoria/text2image/blob/master/doc/example/1.jpg?raw=true)
 
