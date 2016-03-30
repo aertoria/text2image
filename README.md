@@ -1,4 +1,7 @@
 # text2image
+[![Build Status](https://travis-ci.org/aertoria/text2image.svg?branch=master)](https://travis-ci.org/aertoria/text2image)
+
+
 ![alt tag](https://github.com/aertoria/text2image/blob/master/doc/example/1.jpg?raw=true)
 
 
