@@ -3,6 +3,3 @@ python:
 	- "2.7"
 # command to install dependencies
 script: python test/text2image_test.py 
-branches:
-	only:
-		- master
