@@ -21,7 +21,6 @@ Output:
 It's an opensource program. You are free to use, re-distribtue etc. Welcome to jump in and contribute.
 
 
-
 VERSION:  Code Initial Release    2015-11-13
 This is a project I created at 2010 during college time. Was on GNU license. Now put on Apache License.
 Copyright 2015 aertoria
