@@ -1,4 +1,6 @@
 # text2image
+
+[![Join the chat at https://gitter.im/aertoria/text2image](https://badges.gitter.im/aertoria/text2image.svg)](https://gitter.im/aertoria/text2image?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/aertoria/text2image.svg?branch=master)](https://travis-ci.org/aertoria/text2image)
 
 
