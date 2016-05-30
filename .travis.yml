@@ -2,7 +2,7 @@ language: python
 python:
     - "2.7"
 # command to install dependencies
-script: python test/text2image_test.py 
+script: python Text2image_test.py "Helloworld"
 before_install:
   - pip install codecov
 after_success:
