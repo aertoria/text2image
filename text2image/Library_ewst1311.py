@@ -1,14 +1,7 @@
-#!/usr/bin/python
 '''
- _    _  _____  _      _____  _____ ___  ___ _____ 
-| |  | ||  ___|| |    /  __ \|  _  ||  \/  ||  ___|
-| |  | || |__  | |    | /  \/| | | || .  . || |__  
-| |/\| ||  __| | |    | |    | | | || |\/| ||  __| 
-\  /\  /| |___ | |____| \__/\\ \_/ /| |  | || |___ 
- \/  \/ \____/ \_____/ \____/ \___/ \_|  |_/\____/ 
-                                                   
-VERSION:  Code Initial Release    2015-11-13 
-Copyright 2015 aertoria
+VERSION:  Code Initial Release    2015-11-13
+Copyright 2015@aertoria
+ethanwang.dev@gmail.com
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -21,10 +14,7 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
 '''
-import sys
-
 class Library_ewst1311(object):
 	M_SPACE=[]
 	M_SPACE.append('     ')
@@ -33,8 +23,8 @@ class Library_ewst1311(object):
 	M_SPACE.append('     ')
 	M_SPACE.append('     ')
 	M_SPACE.append('     ')
-	#  ___  
-	# / _ \ 
+	#  ___
+	# / _ \
 	#/ /_\ \
 	#|  _  |
 	#| | | |
@@ -46,12 +36,12 @@ class Library_ewst1311(object):
 	M_A.append('|  _  |')
 	M_A.append('| | | |')
 	M_A.append('\_| |_/')
-	#______ 
+	#______
 	#| ___ \
 	#| |_/ /
 	#| ___ \
 	#| |_/ /
-	#\____/ 
+	#\____/
 	M_B=[]
 	M_B.append('______ ')
 	M_B.append('| ___ \\')
@@ -59,10 +49,10 @@ class Library_ewst1311(object):
 	M_B.append('| ___ \\')
 	M_B.append('| |_/ /')
 	M_B.append('\\____/ ')
-	# _____ 
+	# _____
 	#/  __ \
 	#| /  \/
-	#| |    
+	#| |
 	#| \__/\
 	# \____/
 	M_C=[]
@@ -72,12 +62,12 @@ class Library_ewst1311(object):
 	M_C.append('| |    ')
 	M_C.append('| \__/\\')
 	M_C.append(' \____/')
-	#______ 
+	#______
 	#|  _  \
 	#| | | |
 	#| | | |
-	#| |/ / 
-	#|___/  
+	#| |/ /
+	#|___/
 	M_D=[]
 	M_D.append('______ ')
 	M_D.append('|  _  \\')
@@ -85,12 +75,12 @@ class Library_ewst1311(object):
 	M_D.append('| | | |')
 	M_D.append('| |/ / ')
 	M_D.append('|___/  ')
-	# _____ 
+	# _____
 	#|  ___|
-	#| |__  
-	#|  __| 
-	#| |___ 
-	#\____/ 
+	#| |__
+	#|  __|
+	#| |___
+	#\____/
 	M_E=[]
 	M_E.append(' _____ ')
 	M_E.append('|  ___|')
@@ -98,12 +88,12 @@ class Library_ewst1311(object):
 	M_E.append('|  __| ')
 	M_E.append('| |___ ')
 	M_E.append('\\____/ ')
-	#______ 
+	#______
 	#|  ___|
-	#| |_   
-	#|  _|  
-	#| |    
-	#\_| 
+	#| |_
+	#|  _|
+	#| |
+	#\_|
 	M_F=[]
 	M_F.append('______ ')
 	M_F.append('|  ___|')
@@ -111,10 +101,10 @@ class Library_ewst1311(object):
 	M_F.append('|  _|  ')
 	M_F.append('| |    ')
 	M_F.append('\\_|    ')
-	# _____ 
+	# _____
 	#|  __ \
 	#| |  \/
-	#| | __ 
+	#| | __
 	#| |_\ \
 	# \____/
 	M_G=[]
@@ -124,7 +114,7 @@ class Library_ewst1311(object):
 	M_G.append('| | __ ')
 	M_G.append('| |_\\ \\')
 	M_G.append(' \\____/')
-	# _   _ 
+	# _   _
 	#| | | |
 	#| |_| |
 	#|  _  |
@@ -137,12 +127,12 @@ class Library_ewst1311(object):
 	M_H.append('|  _  |')
 	M_H.append('| | | |')
 	M_H.append('\\_| |_/')
-	# _____ 
+	# _____
 	#|_   _|
-	#  | |  
-	#  | |  
-	# _| |_ 
-	# \___/ 
+	#  | |
+	#  | |
+	# _| |_
+	# \___/
 	M_I=[]
 	M_I.append(' _____ ')
 	M_I.append('|_   _|')
@@ -150,12 +140,12 @@ class Library_ewst1311(object):
 	M_I.append('  | |  ')
 	M_I.append(' _| |_ ')
 	M_I.append(' \\___/ ')
-	#   ___ 
+	#   ___
 	#  |_  |
 	#	 | |
 	#  	 | |
 	#/\__/ /
-	#\____/ 
+	#\____/
 	M_J=[]
 	M_J.append('   ___ ')
 	M_J.append('  |_  |')
@@ -165,8 +155,8 @@ class Library_ewst1311(object):
 	M_J.append('\\____/ ')
 	# _   __
 	#| | / /
-	#| |/ / 
-	#|    \ 
+	#| |/ /
+	#|    \
 	#| |\  \
 	#\_| \_/
 	M_K=[]
@@ -176,10 +166,10 @@ class Library_ewst1311(object):
 	M_K.append('|    \\ ')
 	M_K.append('| |\\  \\')
 	M_K.append('\\_| \\_/')
-	# _     
-	#| |    
-	#| |    
-	#| |    
+	# _
+	#| |
+	#| |
+	#| |
 	#| |____
 	#\_____/
 	M_L=[]
@@ -202,7 +192,7 @@ class Library_ewst1311(object):
 	M_M.append('| |\\/| |')
 	M_M.append('| |  | |')
 	M_M.append('\\_|  |_/')
-	# _   _ 
+	# _   _
 	#| \ | |
 	#|  \| |
 	#| . ` |
@@ -215,12 +205,12 @@ class Library_ewst1311(object):
 	M_N.append('| . ` |')
 	M_N.append('| |\\  |')
 	M_N.append('\\_| \\_/')
-	# _____ 
+	# _____
 	#|  _  |
 	#| | | |
 	#| | | |
 	#\ \_/ /
-	# \___/ 
+	# \___/
 	M_O=[]
 	M_O.append(' _____ ')
 	M_O.append('|  _  |')
@@ -228,12 +218,12 @@ class Library_ewst1311(object):
 	M_O.append('| | | |')
 	M_O.append('\\ \\_/ /')
 	M_O.append(' \\___/ ')
-	#______ 
+	#______
 	#| ___ \
 	#| |_/ /
-	#|  __/ 
-	#| |    
-	#\_|    
+	#|  __/
+	#| |
+	#\_|
 	M_P=[]
 	M_P.append('______ ')
 	M_P.append('| ___ \\')
@@ -241,7 +231,7 @@ class Library_ewst1311(object):
 	M_P.append('|  __/ ')
 	M_P.append('| |    ')
 	M_P.append('\\_|    ')
-	# _____ 
+	# _____
 	#|  _  |
 	#| | | |
 	#| | | |
@@ -253,12 +243,12 @@ class Library_ewst1311(object):
 	M_Q.append('| | | |')
 	M_Q.append('| | | |')
 	M_Q.append('\\ \\/\' /')
-	M_Q.append(' \\_/\\_\\')	   
-	#______ 
+	M_Q.append(' \\_/\\_\\')
+	#______
 	#| ___ \
 	#| |_/ /
-	#|    / 
-	#| |\ \ 
+	#|    /
+	#| |\ \
 	#\_| \_|
 	M_R=[]
 	M_R.append('______ ')
@@ -266,39 +256,39 @@ class Library_ewst1311(object):
 	M_R.append('| |_/ /')
 	M_R.append('|    / ')
 	M_R.append('| |\\ \\ ')
-	M_R.append('\\_| \\_/')    
-	# _____ 
+	M_R.append('\\_| \\_/')
+	# _____
 	#/  ___|
-	#\ `--. 
+	#\ `--.
 	# `--. \
 	#/\__/ /
-	#\____/ 
+	#\____/
 	M_S=[]
 	M_S.append(' _____ ')
 	M_S.append('/  ___|')
 	M_S.append('\\ `--. ')
 	M_S.append(' `--. \\')
 	M_S.append('/\\__/ /')
-	M_S.append('\\____/ ')		   
-	# _____ 
+	M_S.append('\\____/ ')
+	# _____
 	#|_   _|
-	#  | |  
-	#  | |  
-	#  | |  
-	#  \_/ 
+	#  | |
+	#  | |
+	#  | |
+	#  \_/
 	M_T=[]
 	M_T.append(' _____ ')
 	M_T.append('|_   _|')
 	M_T.append('  | |  ')
 	M_T.append('  | |  ')
 	M_T.append('  | |  ')
-	M_T.append('  \\_/  ') 
-	# _   _ 
+	M_T.append('  \\_/  ')
+	# _   _
 	#| | | |
 	#| | | |
 	#| | | |
 	#| |_| |
-	# \___/ 
+	# \___/
 	M_U=[]
 	M_U.append(' _   _ ')
 	M_U.append('| | | |')
@@ -306,36 +296,36 @@ class Library_ewst1311(object):
 	M_U.append('| | | |')
 	M_U.append('| | | |')
 	M_U.append(' \\___/ ')
-	# _   _ 
+	# _   _
 	#| | | |
 	#| | | |
 	#| | | |
 	#\ \_/ /
-	# \___/ 
+	# \___/
 	M_V=[]
 	M_V.append(' _   _ ')
 	M_V.append('| | | |')
 	M_V.append('| | | |')
 	M_V.append('| | | |')
 	M_V.append('\\ \\_/ /')
-	M_V.append(' \\___/ ')	   
-	# _    _ 
+	M_V.append(' \\___/ ')
+	# _    _
 	#| |  | |
 	#| |  | |
 	#| |/\| |
 	#\  /\  /
-	# \/  \/ 
+	# \/  \/
 	M_W=[]
 	M_W.append(' _    _ ')
 	M_W.append('| |  | |')
 	M_W.append('| |  | |')
 	M_W.append('| |/\\| |')
 	M_W.append('\\  /\\  /')
-	M_W.append(' \\/  \\/ ')			
+	M_W.append(' \\/  \\/ ')
 	#__   __
 	#\ \ / /
-	# \ V / 
-	# /   \ 
+	# \ V /
+	# /   \
 	#/ /^\ \
 	#\/   \/
 	M_X=[]
@@ -344,13 +334,13 @@ class Library_ewst1311(object):
 	M_X.append(' \\ V / ')
 	M_X.append(' /   \\ ')
 	M_X.append('/ /^\\ \\')
-	M_X.append('\\/   \\/')	
+	M_X.append('\\/   \\/')
 	#__   __
 	#\ \ / /
-	# \ V / 
-	#  \ /  
-	#  | |  
-	#  \_/  
+	# \ V /
+	#  \ /
+	#  | |
+	#  \_/
 	M_Y=[]
 	M_Y.append('__   __')
 	M_Y.append('\\ \\ / /')
@@ -360,8 +350,8 @@ class Library_ewst1311(object):
 	M_Y.append('  \\_/  ')
 	# ______
 	#|___  /
-	#   / / 
-	#  / /  
+	#   / /
+	#  / /
 	#./ /___
 	#\_____/
 	M_Z=[]
@@ -371,11 +361,11 @@ class Library_ewst1311(object):
 	M_Z.append('  / /  ')
 	M_Z.append('./ /___')
 	M_Z.append('\\_____/')
-	
-	# __  
-	#/  | 
-	#`| | 
-	# | | 
+
+	# __
+	#/  |
+	#`| |
+	# | |
 	#_| |_
 	#\___/
 	M_1=[]
@@ -385,10 +375,10 @@ class Library_ewst1311(object):
 	M_1.append(' | | ')
 	M_1.append('_| |_')
 	M_1.append('\\___/')
-	# _____ 
+	# _____
 	#/ __  \
 	#`' / /'
-	#  / /  
+	#  / /
 	#./ /___
 	#\_____/
 	M_2=[]
@@ -397,21 +387,21 @@ class Library_ewst1311(object):
 	M_2.append('`\' / /\'')
 	M_2.append('  / /  ')
 	M_2.append('./ /___')
-	M_2.append('\\_____/')			 
-	# _____ 
+	M_2.append('\\_____/')
+	# _____
 	#|____ |
 	#	/ /
 	#	\ \
 	#.___/ /
-	#\____/ 
+	#\____/
 	M_3=[]
 	M_3.append(' _____ ')
 	M_3.append('|____ |')
 	M_3.append('    / /')
 	M_3.append('    \\ \\')
 	M_3.append('.___/ /')
-	M_3.append('\\____/ ')	   
-	#   ___ 
+	M_3.append('\\____/ ')
+	#   ___
 	#  /   |
 	# / /| |
 	#/ /_| |
@@ -423,13 +413,13 @@ class Library_ewst1311(object):
 	M_4.append(' / /| |')
 	M_4.append('/ /_| |')
 	M_4.append('\\___  |')
-	M_4.append('    |_/')		   
-	# _____ 
+	M_4.append('    |_/')
+	# _____
 	#|  ___|
-	#|___ \ 
+	#|___ \
 	#	 \ \
 	#/\__/ /
-	#\____/ 
+	#\____/
 	M_5=[]
 	M_5.append(' _____ ')
 	M_5.append('|  ___|')
@@ -437,9 +427,9 @@ class Library_ewst1311(object):
 	M_5.append('    \\ \\')
 	M_5.append('/\\__/ /')
 	M_5.append('\\____/ ')
-	#  ____ 
+	#  ____
 	# / ___|
-	#/ /___ 
+	#/ /___
 	#| ___ \
 	#| \_/ |
 	#\_____/
@@ -449,24 +439,24 @@ class Library_ewst1311(object):
 	M_6.append('/ /___ ')
 	M_6.append('| ___ \\')
 	M_6.append('| \\_/ |')
-	M_6.append('\\_____/')		
+	M_6.append('\\_____/')
 	# ______
 	#|___  /
-	#   / / 
-	#  / /  
-	#./ /   
-	#\_/     
+	#   / /
+	#  / /
+	#./ /
+	#\_/
 	M_7=[]
 	M_7.append(' ______')
 	M_7.append('|___  /')
 	M_7.append('   / / ')
 	M_7.append('  / /  ')
 	M_7.append('./ /   ')
-	M_7.append('\\_/    ') 
-	# _____ 
+	M_7.append('\\_/    ')
+	# _____
 	#|  _  |
-	# \ V / 
-	# / _ \ 
+	# \ V /
+	# / _ \
 	#| |_| |
 	#\_____/
 	M_8=[]
@@ -475,13 +465,13 @@ class Library_ewst1311(object):
 	M_8.append(' \\ V / ')
 	M_8.append(' / _ \\ ')
 	M_8.append('| |_| |')
-	M_8.append('\\_____/')	   
-	# _____ 
+	M_8.append('\\_____/')
+	# _____
 	#|  _  |
 	#| |_| |
 	#\____ |
 	#.___/ /
-	#\____/ 
+	#\____/
 	M_9=[]
 	M_9.append(' _____ ')
 	M_9.append('|  _  |')
@@ -489,26 +479,26 @@ class Library_ewst1311(object):
 	M_9.append('\\____ |')
 	M_9.append('.___/ /')
 	M_9.append('\\____/ ')
-	# _____ 
+	# _____
 	#|  _  |
 	#| |/' |
 	#|  /| |
 	#\ |_/ /
-	# \___/ 
+	# \___/
 	M_0=[]
 	M_0.append(' _____ ')
 	M_0.append('|  _  |')
 	M_0.append('| |/\' |')
 	M_0.append('|  /| |')
 	M_0.append('\\ |_/ /')
-	M_0.append(' \\___/ ')	   
-	
-	
+	M_0.append(' \\___/ ')
+
+
 	#
-	#		
-	# ______ 
+	#
+	# ______
 	#|______|
-	#		
+	#
 	#
 	M_DASH=[]
 	M_DASH.append('       ')
@@ -520,8 +510,8 @@ class Library_ewst1311(object):
 	#
 	#
 	#
-	#	
-	# ______ 
+	#
+	# ______
 	#|______|
 	M_UNDERSCORE=[]
 	M_UNDERSCORE.append('       ')
@@ -531,10 +521,10 @@ class Library_ewst1311(object):
 	M_UNDERSCORE.append(' _____ ')
 	M_UNDERSCORE.append('|_____|')
 	#
-	#   
-	#   
-	#   
-	# _ 
+	#
+	#
+	#
+	# _
 	#(_)
 	M_DOT=[]
 	M_DOT.append('     ')
@@ -543,43 +533,11 @@ class Library_ewst1311(object):
 	M_DOT.append('     ')
 	M_DOT.append('  _  ')
 	M_DOT.append(' (_) ')
-	
-	
+
 	def __init__(self):
 		self.dict={'A':self.M_A,'B':self.M_B,'C':self.M_C,'D':self.M_D,'E':self.M_E,'F':self.M_F,'G':self.M_G,'H':self.M_H,'I':self.M_I,'J':self.M_J,'K':self.M_K,'L':self.M_L,'M':self.M_M,'N':self.M_N,'O':self.M_O,'P':self.M_P,'Q':self.M_Q,'R':self.M_R,'S':self.M_S,'T':self.M_T,'U':self.M_U,'V':self.M_V,'W':self.M_W,'X':self.M_X,'Y':self.M_Y,'Z':self.M_Z,'0':self.M_0,'0':self.M_0,'1':self.M_1,'2':self.M_2,'3':self.M_3,'4':self.M_4,'5':self.M_5,'6':self.M_6,'7':self.M_7,'8':self.M_8,'9':self.M_9}
 		self.dict[' ']=self.M_SPACE
 		self.dict['-']=self.M_DASH
 		self.dict['.']=self.M_DOT
 		self.dict['_']=self.M_UNDERSCORE
-		
-		
-class GENRATOR(Library_ewst1311):
-	def __init__(self,input):
-		L_input=list(input.upper())
-		super(GENRATOR,self).__init__()
-		if self.check(L_input):
-			return self.generate(L_input)
-		print 'Error During Processing. Only allow character, space, dash and dot'
-		
-	#Check to see if input not containing other charecter	
-	def check(self, L_input):
-		for word in L_input:
-			if word not in self.dict.keys():
-				return False
-		return True
-	#To generate the real input
-	def generate(self,L_input):
-		for i in range(6):
-			result = ''
-			for letter_index in range(len(L_input)):
-				result+=self.dict[L_input[letter_index]][i]
-		 	print result
-
-	
-if __name__ == '__main__':
-	if len(sys.argv) == 2:
-		instance_GENRATOR=GENRATOR(sys.argv[1])
-	else:
-		print 'Invalid input. Sample: python generate.py "hello world"'
-	sys.exit()
 
