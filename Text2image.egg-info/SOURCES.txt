@@ -1,0 +1,9 @@
+setup.py
+Text2image/Library_ewst1311.py
+Text2image/Text2image.py
+Text2image/__init__.py
+Text2image.egg-info/.DS_Store
+Text2image.egg-info/PKG-INFO
+Text2image.egg-info/SOURCES.txt
+Text2image.egg-info/dependency_links.txt
+Text2image.egg-info/top_level.txt
