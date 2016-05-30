@@ -20,9 +20,8 @@ from Library_ewst1311 import Library_ewst1311
 import sys
 
 class Text2image(Library_ewst1311):
-	def __init__(self,input):
-		super(GENRATOR,self).__init__()
-		print self.get_image(input)
+	def __init__(self):
+		super(Text2image,self).__init__()
 
 	#public. To generate the image and return the result
 	"""usage: output =instanceGenrator.generate_image('hello world')"""
@@ -51,6 +50,7 @@ class Text2image(Library_ewst1311):
 
 if __name__ == '__main__':
 	if len(sys.argv) == 2:
-		instance=Text2image(sys.argv[1])
+		instance=Text2image()
+		print instance.get_image(sys.argv[1])
 	else:
 		print 'Invalid input. Sample: python generate.py "hello world"'

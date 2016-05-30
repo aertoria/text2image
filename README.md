@@ -28,8 +28,9 @@ It's an opensource program. You are free to use, re-distribtue etc. Welcome to j
 
 
 To use it as a library:
-import  Text2image
-Text2image(sys.argv[1]).get_image("Helloworld")
+from Text2image import Text2image
+instance=Text2image.Text2image()
+print instance.get_image("HelloWorld")
 
 VERSION:  Code Initial Release    2015-11-13
 This is a project based on an project I created at 2010. Was on MIT license. Now put on Apache License.
