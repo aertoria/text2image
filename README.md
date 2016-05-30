@@ -10,17 +10,22 @@
 text2image is a python program that allow you to convert any text to a word-image like 'read me' above.
 This let you to better comment when you programming, writing documentation.
 
+To install it is very simple:
+
+pip install Text2image
+
+
 To use it is very simple:
 
 Example 1:
- python ./text2image.py "hello world"
+ python ./Text2image.py "hello world"
 Output:
 ![alt tag](https://github.com/aertoria/text2image/blob/master/text2image/doc/example/2.jpg?raw=true)
 
 
 
 Example 2:
- python ./text2image.py "SPARK V2.0_1"
+ python ./Text2image.py "SPARK V2.0_1"
 Output:
 ![alt tag](https://github.com/aertoria/text2image/blob/master/text2image/doc/example/3.jpg?raw=true)
 It's an opensource program. You are free to use, re-distribtue etc. Welcome to jump in and contribute.
